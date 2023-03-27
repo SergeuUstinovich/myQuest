@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="table">
+        
+        <div class="head"> 
+            <div class="frame_one">
+               <h1 class="arrivals">Новые поступления</h1>
+               <p class="new_Memders">Более 400+ новых участников</p>
+           </div>
+           <div class="frame_two">
+                <div class="dropdown">
+                    <button class="but_filter material-icons" >
+                       Фильтр <br>
+                       arrow_drop_down
+                    </button>
+                   <form class="dropdown-content" id="myDropdown">
+                       <input id="filter-name-company" class="form-inp" type="text" placeholder="Компания">
+                       <!-- <button data-skill="intertico">Intertico</button>
+                       <button data-skill="agoda">Agoda</button>
+                       <button data-skill="the_hill">The Hill</button> -->
+                       </form>
+                </div>
+               <div class="dropform">
+                <button class="but_create">Создать</button>
+                
+                    <div class="dropform-content" id="myForm">
+                    <form action="#" class="dropform-content" id="listForm">
+                        <!-- <button class="but-form-close material-icons">
+                        close
+                        </button> -->
+                        <!-- <label for="file"><input class="form-inp" id="file" type="file" accept="image/*" placeholder="Ваше фото">Ваше фото</label> -->
+                        <input id="formName" class="form-inp" type="text" placeholder="Введите имя и фамилию">
+                        <input id="formSkills" class="form-inp" type="text" placeholder="Владения технологиями">
+                        <input id="formEarning" class="form-inp" type="text" placeholder="Доход">
+                        <input id="formCommis" class="form-inp" type="text" placeholder="Коммисия">
+                        <input id="formCompany" class="form-inp" type="text" placeholder="Компания">
+                        <input id="formCompTex" class="form-inp" type="text" placeholder="Технологии компании">
+                        <input id="formRating" class="form-inp" type="number" placeholder="Как вы себя оцениваете(1-5)">
+                        <button class="but-form" type="submit">Добавить пользователя</button>
+                    </form>
+                    </div>
+                </div>
+           </div>
+       </div> 
+           <div class="col_titles">
+               <div class="hum">Программисты и навыки
+                    <div id="sor-name" class="nam sort material-icons" title="Сортировать по рейтингу">
+                    unfold_more   
+                   </div> 
+                </div>
+               <div class="earn st inv">ДОХОД</div>
+               <div class="comm inv">КОМИССИЯ</div>
+               <div class="comp inv">КОМПАНИЯ</div>
+               <div class="reit st inv">РЕЙТИНГ 
+                   <div id="sor-dir" class="sort material-icons" title="Сортировать по рейтингу">
+                    unfold_more   
+                   </div>
+                   <!-- <div id="sor-asc" class="sort" title="Сортировать по рейтингу">
+                       <span class="material-symbols-outlined">
+                       expand_more
+                       </span>
+                   </div> -->
+               </div>
+               <div class="butt" id="btnContainer">
+                <div class="sort btn active" title="Отображение плиткой">
+                    <span class="material-symbols-outlined">
+                        apps
+                    </span>
+                </div>
+                <div class="sort btn deactive"  title="Отображение списком">
+                    <span class="material-symbols-outlined">
+                        more_vert
+                    </span>
+                </div>
+                </div>
+           </div>
+           <div class="body" id="listApp">
+               
+        </div>  
+    </div>
+</body>
+</html>
